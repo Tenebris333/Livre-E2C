@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Fraktur;
+    src: url(Schmale\ Halbfette\ Fraktur.ttf);
+   }
+
+
+
+p {
+    color: black;
+    font-size: 1rem;
+}
+
+
+h1{
+   font-size: xx-large;
+   color: black;
+   font-family: Fraktur;
+}
+
+li {
+    font-size: x-large;
+    color:rgb(150, 0, 0);
+    font-style: oblique;
+    font-family: Fraktur;
+}
+
+h2 {
+    font-size: xx-large;
+    font-family: Fraktur;
+}
+
+body{ 
+      font-size: 1rem;
+      background-color: burlywood;
+      background-size: 1700px;
+}
+
+header {
+      
+
+}
