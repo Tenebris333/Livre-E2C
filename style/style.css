@@ -3,11 +3,17 @@
     src: url(Schmale\ Halbfette\ Fraktur.ttf);
    }
 
-
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
 
 p {
     color: black;
     font-size: 1rem;
+    padding: 20px;
 }
 
 
@@ -15,27 +21,100 @@ h1{
    font-size: xx-large;
    color: black;
    font-family: Fraktur;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+
+
 }
 
 li {
     font-size: x-large;
-    color:rgb(150, 0, 0);
+    color:#960000;
     font-style: oblique;
     font-family: Fraktur;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
 }
 
 h2 {
     font-size: xx-large;
     font-family: Fraktur;
+    padding: 10px;
+    width: fit-content;
+    
 }
+
+h3 {
+    font-size: x-large;
+    font-family: Fraktur;
+    padding: 10px;
+    width: fit-content;
+
+}
+
+
+
 
 body{ 
       font-size: 1rem;
-      background-color: burlywood;
+      background-color: #deb887;
       background-size: 1700px;
 }
 
 header {
-       background-color: brown;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: stretch;
+       background-color: #960000;
+       height: 15vh;
+       margin-bottom: 20px;
+}
+#a52a2a
+#LogoLivre {
+     float: left;
+     height: 15vh;
 
 }
+
+#titres {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 80%;
+       margin-right: 10%;
+}
+
+main {
+    padding: 20x;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+article {
+    width: 60%;
+    border: 15px ridge #960000;
+    background-color: #caa779;
+    margin: 20px;
+    padding: 20px;
+    
+  }
+
+
+
+  #image {
+       height: 50vh;
+       
+
+  }
+
